@@ -1,0 +1,5 @@
+alias ls="ls -Glh"
+alias l="ls"
+alias ll="ls -a"
+
+alias rm="trash"
