@@ -3,3 +3,9 @@ alias l="ls"
 alias ll="ls -a"
 
 alias rm="trash"
+
+alias sudo='nocorrect sudo'
+alias cp='nocorrect cp'
+alias ln='nocorrect ln'
+alias mv='nocorrect mv'
+alias rm='nocorrect rm'
