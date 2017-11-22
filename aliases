@@ -1,6 +1,6 @@
-alias ls="ls -Glh"
+alias ls="ls -FGlh"
 alias l="ls"
-alias ll="ls -a"
+alias ll="ls -A"
 
 alias rm="trash"
 
