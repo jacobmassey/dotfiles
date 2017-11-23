@@ -10,6 +10,7 @@
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.hyper.js: hyper.js
+    ~/.zsh: zsh
     ~/.zshrc: zshrc
 
 - shell:
