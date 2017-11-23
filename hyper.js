@@ -101,6 +101,10 @@ module.exports = {
     hyperTabs: {
       tabIconsColored: true,
       trafficButtons: true
+    },
+    alternateScroll: {
+      // 1 to 100 is supported
+      scrollSpeed: 95
     }
   },
 
@@ -113,7 +117,8 @@ module.exports = {
   plugins: [
     'hyper-snazzy',
     'hyper-search',
-    'hyper-tabs-enhanced'
+    'hyper-tabs-enhanced',
+    'hyperterm-alternatescroll'
   ],
 
   // in development, you can create a directory under
