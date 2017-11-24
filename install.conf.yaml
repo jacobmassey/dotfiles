@@ -5,8 +5,6 @@
 - clean: ['~']
 
 - link:
-    ~/.aliases: aliases
-    ~/.environment: environment
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.hyper.js: hyper.js

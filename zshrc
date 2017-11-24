@@ -16,7 +16,7 @@ setopt HIST_SAVE_NO_DUPS
 setopt HIST_FIND_NO_DUPS
 setopt HIST_IGNORE_ALL_DUPS
 
-source ~/.environment
-source ~/.aliases
+source ~/.zsh/environment.zsh
+source ~/.zsh/aliases.zsh
 
 source ~/.zsh/vendor/zsh-autosuggestions/zsh-autosuggestions.zsh
