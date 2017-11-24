@@ -19,4 +19,4 @@ setopt HIST_IGNORE_ALL_DUPS
 source ~/.environment
 source ~/.aliases
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/vendor/zsh-autosuggestions/zsh-autosuggestions.zsh
