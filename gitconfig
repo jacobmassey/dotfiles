@@ -1,13 +1,13 @@
 [core]
-  excludesfile = ~/.gitignore_global
-  editor = code --wait
+	excludesfile = ~/.gitignore_global
+	editor = code --wait
 [diff]
-  tool = default-difftool
+	tool = default-difftool
 [difftool "default-difftool"]
-  cmd = code --wait --diff $LOCAL $REMOTE
+	cmd = code --wait --diff $LOCAL $REMOTE
 [include]
-  path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
 [pull]
 	ff = only
 [user]
-  useConfigOnly = true
+	useConfigOnly = true
