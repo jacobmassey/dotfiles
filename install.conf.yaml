@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/.editorconfig: editorconfig
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.hyper.js: hyper.js
