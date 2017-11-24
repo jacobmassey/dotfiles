@@ -16,6 +16,11 @@ setopt HIST_SAVE_NO_DUPS
 setopt HIST_FIND_NO_DUPS
 setopt HIST_IGNORE_ALL_DUPS
 
+# setup misc opts
+setopt AUTO_CD
+setopt NOCLOBBER
+setopt CORRECTALL
+
 source ~/.zsh/environment.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/functions.zsh
