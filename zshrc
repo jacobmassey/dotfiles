@@ -29,3 +29,5 @@ source ~/.zsh/aliases.zsh
 source ~/.zsh/functions.zsh
 
 source ~/.zsh/vendor/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
