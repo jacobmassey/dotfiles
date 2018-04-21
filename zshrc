@@ -1,10 +1,13 @@
-# setup prompt
-autoload -U promptinit; promptinit
-prompt pure # from https://github.com/sindresorhus/pure
+autoload -Uz compinit promptinit
+compinit
+promptinit
 
-# setup completions
-autoload -U compinit; compinit
-source ~/.zsh/vendor/docker/cli/contrib/completion/zsh/_docker
+prompt pure # https://github.com/sindresorhus/pure
+
+etc=/Applications/Docker.app/Contents/Resources/etc
+ln -sf $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
+ln -sf $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
+ln -sf $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 
 # setup history
 HISTSIZE=8192
