@@ -8,6 +8,7 @@
 - link:
     ~/.editorconfig: editorconfig
     ~/.gitconfig: gitconfig
+    ~/.gitconfig.local: gitconfig.local
     ~/.gitignore_global: gitignore_global
     ~/.hyper.js: hyper.js
     ~/.zsh: zsh

@@ -5,9 +5,10 @@
 	tool = default-difftool
 [difftool "default-difftool"]
 	cmd = code --wait --diff $LOCAL $REMOTE
-[include]
-	path = ~/.gitconfig.local
 [pull]
 	ff = only
 [user]
 	useConfigOnly = true
+	name = Jacob Massey
+[include]
+	path = ~/.gitconfig.local
