@@ -4,6 +4,8 @@ promptinit
 
 prompt pure # https://github.com/sindresorhus/pure
 
+fpath=(~/.zsh/vendor/zsh-completions/src $fpath)
+
 etc=/Applications/Docker.app/Contents/Resources/etc
 ln -sf $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
 ln -sf $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
